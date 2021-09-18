@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/jesse-sites/static/css/main.01f9eb98.chunk.css",
-    "main.js": "/jesse-sites/static/js/main.06f610e4.chunk.js",
-    "main.js.map": "/jesse-sites/static/js/main.06f610e4.chunk.js.map",
-    "runtime-main.js": "/jesse-sites/static/js/runtime-main.8fdb21e3.js",
-    "runtime-main.js.map": "/jesse-sites/static/js/runtime-main.8fdb21e3.js.map",
-    "static/js/2.bf8d7c2d.chunk.js": "/jesse-sites/static/js/2.bf8d7c2d.chunk.js",
-    "static/js/2.bf8d7c2d.chunk.js.map": "/jesse-sites/static/js/2.bf8d7c2d.chunk.js.map",
-    "index.html": "/jesse-sites/index.html",
-    "static/css/main.01f9eb98.chunk.css.map": "/jesse-sites/static/css/main.01f9eb98.chunk.css.map",
-    "static/js/2.bf8d7c2d.chunk.js.LICENSE.txt": "/jesse-sites/static/js/2.bf8d7c2d.chunk.js.LICENSE.txt"
+    "main.css": "/jesse-sites-react-app/static/css/main.01f9eb98.chunk.css",
+    "main.js": "/jesse-sites-react-app/static/js/main.06f610e4.chunk.js",
+    "main.js.map": "/jesse-sites-react-app/static/js/main.06f610e4.chunk.js.map",
+    "runtime-main.js": "/jesse-sites-react-app/static/js/runtime-main.de557f37.js",
+    "runtime-main.js.map": "/jesse-sites-react-app/static/js/runtime-main.de557f37.js.map",
+    "static/js/2.bf8d7c2d.chunk.js": "/jesse-sites-react-app/static/js/2.bf8d7c2d.chunk.js",
+    "static/js/2.bf8d7c2d.chunk.js.map": "/jesse-sites-react-app/static/js/2.bf8d7c2d.chunk.js.map",
+    "index.html": "/jesse-sites-react-app/index.html",
+    "static/css/main.01f9eb98.chunk.css.map": "/jesse-sites-react-app/static/css/main.01f9eb98.chunk.css.map",
+    "static/js/2.bf8d7c2d.chunk.js.LICENSE.txt": "/jesse-sites-react-app/static/js/2.bf8d7c2d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8fdb21e3.js",
+    "static/js/runtime-main.de557f37.js",
     "static/js/2.bf8d7c2d.chunk.js",
     "static/css/main.01f9eb98.chunk.css",
     "static/js/main.06f610e4.chunk.js"
