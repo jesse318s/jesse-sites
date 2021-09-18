@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jesse-sites/static/css/main.a617e044.chunk.css",
+    "main.js": "/jesse-sites/static/js/main.0d1abdaf.chunk.js",
+    "main.js.map": "/jesse-sites/static/js/main.0d1abdaf.chunk.js.map",
+    "runtime-main.js": "/jesse-sites/static/js/runtime-main.e9d4b00f.js",
+    "runtime-main.js.map": "/jesse-sites/static/js/runtime-main.e9d4b00f.js.map",
+    "static/js/2.3ece2f5e.chunk.js": "/jesse-sites/static/js/2.3ece2f5e.chunk.js",
+    "static/js/2.3ece2f5e.chunk.js.map": "/jesse-sites/static/js/2.3ece2f5e.chunk.js.map",
+    "static/js/3.29904150.chunk.js": "/jesse-sites/static/js/3.29904150.chunk.js",
+    "static/js/3.29904150.chunk.js.map": "/jesse-sites/static/js/3.29904150.chunk.js.map",
+    "index.html": "/jesse-sites/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/jesse-sites/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.3ece2f5e.chunk.js.LICENSE.txt": "/jesse-sites/static/js/2.3ece2f5e.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/jesse-sites/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9d4b00f.js",
+    "static/js/2.3ece2f5e.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.0d1abdaf.chunk.js"
+  ]
+}
