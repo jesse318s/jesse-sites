@@ -26,7 +26,7 @@ function App() {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             {/* Navbar brand */}
                             <a className="navbar-brand mt-2 mt-lg-0" href="">
-                                <h1 className="nav_title">Jesse Sites</h1>
+                                <h1 className="nav_title text_shadow">Jesse Sites</h1>
                             </a>
                             {/* Left links */}
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -101,7 +101,7 @@ function App() {
                 </section>
                 <div id="skills" style={{ position: "relative", bottom: "45px" }}></div>
                 <section className="row text-center mt-5 mx-5">
-                    <h2 className="mb-4 text-shadow">My Skills</h2>
+                    <h2 className="mb-4 text_shadow">My Skills</h2>
                     <div className="col-6">
                         <p className="font-weight-bold pt-4 mb-2">HTML</p>
                         <div className="progress" style={{ backgroundColor: "black" }}>
@@ -160,7 +160,7 @@ function App() {
                 </section>
                 <div id="projects" style={{ position: "relative", bottom: "95px" }}></div>
                 <section className="text-center mb-5">
-                    <h2 className="mb-5 text-shadow">My Projects</h2>
+                    <h2 className="mb-5 text_shadow">My Projects</h2>
                     <div className="accordion mx-5" id="projectsAccordion">
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingOne">
@@ -246,7 +246,7 @@ function App() {
                 <div id="about" style={{ position: "relative", bottom: "100px" }}></div>
                 <section className="text-center pb-5">
 
-                    <h2 className="mb-5 text-shadow">About Me</h2>
+                    <h2 className="mb-5 text_shadow">About Me</h2>
 
                     <div className="row mx-5">
                         <div className="col-12">
@@ -266,7 +266,7 @@ function App() {
             <footer id="contact" className="bg-dark text-light">
                 <div className="text-center mb-5">
 
-                    <h2 className="mb-5 text-shadow">Contact Me</h2>
+                    <h2 className="mb-5 text_shadow">Contact Me</h2>
 
                     <p className="mb-5 mx-auto w-responsive">
                         I can be contacted via email, LinkedIn, text, call, or snail mail. I check my email daily and it is the best method to reach me quickly.
