@@ -182,9 +182,14 @@ function App() {
                                 data-mdb-parent="#projectsAccordion"
                             >
                                 <div className="accordion-body text-dark">
-                                    <strong>Test </strong>
-                                    Test.
-                                    <strong> Test</strong>
+                                    <p>The website for the artists of Granbury, TX.</p>
+                                    <strong><p>I was only developer for this website.</p></strong>
+                                    <p className="text-decoration-underline"><a href="https://www.granbury-art.com/">Visit website...</a></p>
+                                    <img
+                                        src={process.env.PUBLIC_URL + "/img/granbury_art.webp"}
+                                        width="75%"
+                                        height="75%">
+                                    </img>
                                 </div>
                             </div>
                         </div>
@@ -208,9 +213,16 @@ function App() {
                                 data-mdb-parent="#projectsAccordion"
                             >
                                 <div className="accordion-body text-dark">
-                                    <strong>Test </strong>
-                                    Test.
-                                    <strong> Test</strong>
+                                    <p>The purpose of Granbury Fresh is to protect public health, public welfare, the environment,
+                                        and the quality of life for the residents in Hood County with a special emphasis on Lake Granbury
+                                        and the waters contributing to Lake Granbury.</p>
+                                    <strong><p>I was leading developer for this website.</p></strong>
+                                    <p className="text-decoration-underline"><a href="http://www.granburyfresh.org/">Visit website...</a></p>
+                                    <img
+                                        src={process.env.PUBLIC_URL + "/img/granbury_fresh.webp"}
+                                        width="75%"
+                                        height="75%">
+                                    </img>
                                 </div>
                             </div>
                         </div>
@@ -234,9 +246,14 @@ function App() {
                                 data-mdb-parent="#projectsAccordion"
                             >
                                 <div className="accordion-body text-dark">
-                                    <strong>Test </strong>
-                                    Test.
-                                    <strong> Test</strong>
+                                    <p>Princigration Landing Page</p>
+                                    <strong><p>I was leading developer for this website.</p></strong>
+                                    <p className="text-decoration-underline"><a href="https://princigration.com/">Visit website...</a></p>
+                                    <img
+                                        src={process.env.PUBLIC_URL + "/img/princigration.webp"}
+                                        width="75%"
+                                        height="75%">
+                                    </img>
                                 </div>
                             </div>
                         </div>
@@ -244,14 +261,14 @@ function App() {
                     <hr class="my-5 mx-5" />
                 </section>
                 <div id="about" style={{ position: "relative", bottom: "100px" }}></div>
-                <section className="text-center pb-5">
+                <section className="text-center">
 
                     <h2 className="mb-5 text_shadow">About Me</h2>
 
                     <div className="row mx-5">
                         <div className="col-12">
                             <p className="lead">Hello, my name is Jesse Sites and I'm a web developer based in Texas.</p>
-                            <p>I am a Computer Programming student with 3 years of experience in the field of information technology at Tarleton State University.
+                            <p>I'm a Computer Programming student with 3 years of experience in the field of information technology at Tarleton State University.
                                 I interned at TIAER (A Tarleton State University research facility) for 2 years, and was a Student Tech for Classroom and Lab Support for 1 year.
                                 I now create web application solutions for my clients utilizing my knowledge and strategies gained from Texas State Technical College,
                                 my new place of study for Computer Programming.</p>
@@ -269,27 +286,28 @@ function App() {
                     <h2 className="mb-5 text_shadow">Contact Me</h2>
 
                     <p className="mb-5 mx-auto w-responsive">
-                        I can be contacted via email, LinkedIn, text, call, or snail mail. I check my email daily and it is the best method to reach me quickly.
+                        I can be contacted via LinkedIn, email, text, call, or snail mail. Since a direct email may be caught in my spam filter,
+                        my LinkedIn profile is the best method to contact me quickly. I check my LinkedIn messages daily.
                     </p>
 
                     <ul className="list-unstyled mb-0">
                         <li>
-                            <i className="fas fa-map-marker-alt fa-2x text-light"></i>
-                            <p>Hawley, TX PO Box 644, USA</p>
-                        </li>
-                        <li>
-                            <i className="fas fa-phone fa-2x text-light"></i>
-                            <p>+1 325-455-4644</p>
+                            <i className="fab fa-linkedin-in fa-2x text-light"></i>
+                            <p className="text-decoration-underline">
+                                <a href="https://www.linkedin.com/in/jesse-sites/">https://www.linkedin.com/in/jesse-sites/</a>
+                            </p>
                         </li>
                         <li>
                             <i className="fas fa-envelope fa-2x text-light"></i>
                             <p>jesse318s@gmail.com</p>
                         </li>
                         <li>
-                            <i className="fab fa-linkedin-in fa-2x text-light"></i>
-                            <p className="mb-0 text-decoration-underline">
-                                <a href="https://www.linkedin.com/in/jesse-sites/">https://www.linkedin.com/in/jesse-sites/</a>
-                            </p>
+                            <i className="fas fa-phone fa-2x text-light"></i>
+                            <p>+1 325-455-4644</p>
+                        </li>
+                        <li>
+                            <i className="fas fa-map-marker-alt fa-2x text-light"></i>
+                            <p>Hawley, TX PO Box 644, USA</p>
                         </li>
                     </ul>
 
