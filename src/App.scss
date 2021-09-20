@@ -1,0 +1,96 @@
+@import "~mdb-ui-kit/css/mdb.min.css";
+
+// styles
+
+.nav_title {
+  font-family: "Cervanttis";
+  color: lightblue;
+  padding: 5px;
+}
+
+.landing_background {
+  height: 100vh;
+  width: 100vw;
+}
+
+.text-shadow {
+    text-shadow: 3px 3px 3px black;
+}
+
+// animations
+.popout {
+  $t: 1s;
+  $d: 0.08em;
+  $n: 3;
+  $e: cubic-bezier(0.86, 0, 0.07, 1);
+  $front: lightblue;
+  $back: black;
+
+  font-family: "Roboto Draft";
+  font-weight: bold;
+  font-size: 80px;
+  padding: 80px;
+  padding-top: 250px;
+  margin: auto;
+  width: 50%;
+  white-space: nowrap;
+
+  @keyframes ani {
+    0% {
+      transform: translate3d(0, 0, 0);
+      text-shadow: 0em 0em 0 $back;
+      color: $front;
+    }
+    30% {
+      transform: translate3d(0, 0, 0);
+      text-shadow: 0em 0em 0 $back;
+      color: $front;
+    }
+    70% {
+      transform: translate3d($d, -$d, 0);
+      text-shadow: -$d $d $back;
+      color: $front;
+    }
+    100% {
+      transform: translate3d($d, -$d, 0);
+      text-shadow: -$d $d $back;
+      color: $front;
+    }
+  }
+  span {
+    position: relative;
+    display: inline-block;
+    animation: ani $t infinite alternate $e;
+    @for $i from 1 through $n {
+      &:nth-last-child(#{$i}n) {
+        animation-delay: -$t * $i/$n/2;
+      }
+    }
+  }
+}
+
+.blink {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 50%;
+  }
+}
+
+// tablet media query
+@media screen and (max-width: 991px) {
+  .popout {
+    font-size: 40px;
+  }
+}
+
+// phone media query
+@media screen and (max-width: 480px) {
+  .popout {
+    font-size: 20px;
+    position: relative;
+    right: 100px;
+  }
+}
