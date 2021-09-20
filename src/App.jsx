@@ -95,7 +95,7 @@ function App() {
                         <span>R</span>
                     </p>
                     <div className="d-flex justify-content-center">
-                        <a href="/#skills" className="btn btn-floating btn-lg btn-dark blink">
+                        <a href="#skills" className="btn btn-floating btn-lg btn-dark blink">
                             <i className="fas fa-angle-down"></i></a>
                     </div>
                 </section>
