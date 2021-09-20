@@ -53,10 +53,10 @@ function App() {
                         {/* Right elements */}
                         <div className="d-flex align-items-center">
                             <a className="me-5" href="https://www.linkedin.com/in/jesse-sites/">
-                                <i className="fab fa-linkedin-in fa-2x"></i>
+                                <i className="fab fa-linkedin-in fa-2x text_shadow"></i>
                             </a>
                             <a className="me-5" href="https://github.com/jesse318s">
-                                <i className="fab fa-github fa-2x"></i>
+                                <i className="fab fa-github fa-2x text_shadow"></i>
                             </a>
                         </div>
                         {/* Right elements */}
@@ -67,8 +67,7 @@ function App() {
             </header>
 
             <main className="bg-dark text-light">
-                <section style={{ background: `url('${process.env.PUBLIC_URL}/img/landing_img.webp')`, backgroundSize: "cover" }}
-                    className="landing_background">
+                <section style={{ background: `url('${process.env.PUBLIC_URL}/img/landing_img.webp')`, backgroundSize: "cover", height: "100vh", width: "100vw" }}>
                     <p className="popout">
                         <span>J</span>
                         <span>E</span>
@@ -95,8 +94,8 @@ function App() {
                         <span>R</span>
                     </p>
                     <div className="d-flex justify-content-center">
-                        <a href="#skills" className="btn btn-floating btn-lg btn-dark blink">
-                            <i className="fas fa-angle-down"></i></a>
+                        <a href="#skills" className="btn btn-dark btn-rounded btn-outline-* btn-lg blink">
+                            <i className="fas fa-angle-down fa-2x"></i></a>
                     </div>
                 </section>
                 <div id="skills" style={{ position: "relative", bottom: "45px" }}></div>
@@ -186,6 +185,7 @@ function App() {
                                     <strong><p>I was only developer for this website.</p></strong>
                                     <p className="text-decoration-underline"><a href="https://www.granbury-art.com/">Visit website...</a></p>
                                     <img
+                                        className="shadow-2-strong"
                                         src={process.env.PUBLIC_URL + "/img/granbury_art.webp"}
                                         width="75%"
                                         height="75%">
@@ -219,6 +219,7 @@ function App() {
                                     <strong><p>I was leading developer for this website.</p></strong>
                                     <p className="text-decoration-underline"><a href="http://www.granburyfresh.org/">Visit website...</a></p>
                                     <img
+                                        className="shadow-2-strong"
                                         src={process.env.PUBLIC_URL + "/img/granbury_fresh.webp"}
                                         width="75%"
                                         height="75%">
@@ -250,6 +251,7 @@ function App() {
                                     <strong><p>I was leading developer for this website.</p></strong>
                                     <p className="text-decoration-underline"><a href="https://princigration.com/">Visit website...</a></p>
                                     <img
+                                        className="shadow-2-strong"
                                         src={process.env.PUBLIC_URL + "/img/princigration.webp"}
                                         width="75%"
                                         height="75%">
@@ -292,21 +294,21 @@ function App() {
 
                     <ul className="list-unstyled mb-0">
                         <li>
-                            <i className="fab fa-linkedin-in fa-2x text-light"></i>
+                            <i className="fab fa-linkedin-in fa-2x text-light text_shadow"></i>
                             <p className="text-decoration-underline">
                                 <a href="https://www.linkedin.com/in/jesse-sites/">https://www.linkedin.com/in/jesse-sites/</a>
                             </p>
                         </li>
                         <li>
-                            <i className="fas fa-envelope fa-2x text-light"></i>
+                            <i className="fas fa-envelope fa-2x text-light text_shadow"></i>
                             <p>jesse318s@gmail.com</p>
                         </li>
                         <li>
-                            <i className="fas fa-phone fa-2x text-light"></i>
+                            <i className="fas fa-phone fa-2x text-light text_shadow"></i>
                             <p>+1 325-455-4644</p>
                         </li>
                         <li>
-                            <i className="fas fa-map-marker-alt fa-2x text-light"></i>
+                            <i className="fas fa-map-marker-alt fa-2x text-light text_shadow"></i>
                             <p>Hawley, TX PO Box 644, USA</p>
                         </li>
                     </ul>
