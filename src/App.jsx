@@ -26,7 +26,7 @@ function App() {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             {/* Navbar brand */}
                             <a className="navbar-brand mt-2 mt-lg-0" href="">
-                                <h1 className="nav_title text_shadow">Jesse Sites</h1>
+                                <h1 className="nav_title text_shadow">JS</h1>
                             </a>
                             {/* Left links */}
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
