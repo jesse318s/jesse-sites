@@ -1,6 +1,5 @@
 import './App.scss';
 
-// returns routes to components
 function App() {
     return (
         <>
