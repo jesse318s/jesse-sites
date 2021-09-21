@@ -25,11 +25,11 @@ function App() {
                         {/* Collapsible wrapper */}
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             {/* Navbar brand */}
-                            <a className="navbar-brand mt-2 mt-lg-0" href="">
+                            <a className="navbar-brand" href="">
                                 <h1 className="nav_title text_shadow">JS</h1>
                             </a>
                             {/* Left links */}
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <ul className="navbar-nav me-auto">
                                 <li className="nav-item">
                                     <a className="nav-link" href="">Home</a>
                                 </li>
@@ -52,10 +52,13 @@ function App() {
 
                         {/* Right elements */}
                         <div className="d-flex align-items-center">
-                            <a className="me-5" href="https://www.linkedin.com/in/jesse-sites/">
+                            <a className="btn btn-light me-4 shadow-4-strong" href="https://drive.google.com/file/d/1q_0IETZkUpfSghQxnjyHCSg_JvNHl68_/view?usp=sharing">
+                                My Resume
+                            </a>
+                            <a className="me-4" href="https://www.linkedin.com/in/jesse-sites/">
                                 <i className="fab fa-linkedin-in fa-2x text_shadow"></i>
                             </a>
-                            <a className="me-5" href="https://github.com/jesse318s">
+                            <a className="me-4" href="https://github.com/jesse318s">
                                 <i className="fab fa-github fa-2x text_shadow"></i>
                             </a>
                         </div>
@@ -282,7 +285,8 @@ function App() {
                 </section>
             </main>
 
-            <footer id="contact" className="bg-dark text-light">
+            <footer className="bg-dark text-light">
+            <div id="contact" style={{ position: "relative", bottom: "55px" }}></div>
                 <div className="text-center mb-5">
 
                     <h2 className="mb-5 text_shadow">Contact Me</h2>
