@@ -70,7 +70,7 @@ function App() {
             </header>
 
             <main className="bg-dark text-light">
-                <section style={{ background: `url('${process.env.PUBLIC_URL}/img/landing_img.webp')`, backgroundSize: "cover", height: "100vh", width: "100vw" }}>
+                <section style={{ background: `url('${process.env.PUBLIC_URL}/img/landing_img.webp')`, backgroundSize: "cover", height: "100vh", width: "99vw" }}>
                     <p className="popout">
                         <span>J</span>
                         <span>E</span>
