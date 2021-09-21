@@ -202,7 +202,7 @@ function App() {
                                         width="75%"
                                         height="75%"
                                         loading="lazy"
-                                        >
+                                    >
                                     </img>
                                 </div>
                             </div>
@@ -238,7 +238,7 @@ function App() {
                                         width="75%"
                                         height="75%"
                                         loading="lazy"
-                                        >
+                                    >
                                     </img>
                                 </div>
                             </div>
@@ -272,7 +272,7 @@ function App() {
                                         width="75%"
                                         height="75%"
                                         loading="lazy"
-                                        >
+                                    >
                                     </img>
                                 </div>
                             </div>
