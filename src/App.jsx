@@ -286,13 +286,13 @@ function App() {
             </main>
 
             <footer className="bg-dark text-light">
-            <div id="contact" style={{ position: "relative", bottom: "55px" }}></div>
+                <div id="contact" style={{ position: "relative", bottom: "55px" }}></div>
                 <div className="text-center mb-5">
 
                     <h2 className="mb-5 text_shadow">Contact Me</h2>
 
                     <p className="mb-5 mx-auto w-responsive">
-                        I can be contacted via LinkedIn, email, text, call, or snail mail. Since a direct email may be caught in my spam filter,
+                        I can be contacted via LinkedIn, email, text, or call. Since a direct email may be caught in my spam filter,
                         my LinkedIn profile is the best method to contact me quickly. I check my LinkedIn messages daily.
                     </p>
 
@@ -310,10 +310,6 @@ function App() {
                         <li>
                             <i className="fas fa-phone fa-2x text-light text_shadow"></i>
                             <p>+1 325-455-4644</p>
-                        </li>
-                        <li>
-                            <i className="fas fa-map-marker-alt fa-2x text-light text_shadow"></i>
-                            <p>Hawley, TX PO Box 644, USA</p>
                         </li>
                     </ul>
 
