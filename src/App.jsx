@@ -184,13 +184,15 @@ function App() {
                             >
                                 <div className="accordion-body text-dark">
                                     <p>The website for the artists of Granbury, TX.</p>
-                                    <strong><p>I was only developer for this website.</p></strong>
+                                    <strong><p>I was the only developer for this website.</p></strong>
                                     <p className="text-decoration-underline"><a href="https://www.granbury-art.com/">Visit website...</a></p>
                                     <img
                                         className="shadow-2-strong"
                                         src={process.env.PUBLIC_URL + "/img/granbury_art.webp"}
                                         width="75%"
-                                        height="75%">
+                                        height="75%"
+                                        loading="lazy"
+                                        >
                                     </img>
                                 </div>
                             </div>
@@ -218,13 +220,15 @@ function App() {
                                     <p>The purpose of Granbury Fresh is to protect public health, public welfare, the environment,
                                         and the quality of life for the residents in Hood County with a special emphasis on Lake Granbury
                                         and the waters contributing to Lake Granbury.</p>
-                                    <strong><p>I was leading developer for this website.</p></strong>
+                                    <strong><p>I was the leading developer for this website.</p></strong>
                                     <p className="text-decoration-underline"><a href="http://www.granburyfresh.org/">Visit website...</a></p>
                                     <img
                                         className="shadow-2-strong"
                                         src={process.env.PUBLIC_URL + "/img/granbury_fresh.webp"}
                                         width="75%"
-                                        height="75%">
+                                        height="75%"
+                                        loading="lazy"
+                                        >
                                     </img>
                                 </div>
                             </div>
@@ -250,13 +254,15 @@ function App() {
                             >
                                 <div className="accordion-body text-dark">
                                     <p>Princigration Landing Page</p>
-                                    <strong><p>I was leading developer for this website.</p></strong>
+                                    <strong><p>I was the leading developer for this website.</p></strong>
                                     <p className="text-decoration-underline"><a href="https://princigration.com/">Visit website...</a></p>
                                     <img
                                         className="shadow-2-strong"
                                         src={process.env.PUBLIC_URL + "/img/princigration.webp"}
                                         width="75%"
-                                        height="75%">
+                                        height="75%"
+                                        loading="lazy"
+                                        >
                                     </img>
                                 </div>
                             </div>
