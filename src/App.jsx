@@ -265,7 +265,7 @@ function App() {
                                 <div className="accordion-body text-dark">
                                     <p>Princigration Landing Page</p>
                                     <strong><p>I was the leading developer for this website.</p></strong>
-                                    <p className="text-decoration-underline"><a href="https://princigration.com/">Visit website...</a></p>
+                                    <p className="text-decoration-underline"><a href="https://princigration.herokuapp.com/">Visit website...</a></p>
                                     <img
                                         className="shadow-2-strong"
                                         src={process.env.PUBLIC_URL + "/img/princigration.webp"}
