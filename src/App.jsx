@@ -263,7 +263,7 @@ function App() {
                                 data-mdb-parent="#projectsAccordion"
                             >
                                 <div className="accordion-body text-dark">
-                                    <p>Princigration Landing Page</p>
+                                    <p>Princigration Landing Page and Blog App</p>
                                     <strong><p>I was the leading developer for this website.</p></strong>
                                     <p className="text-decoration-underline"><a href="https://princigration.herokuapp.com/">Visit website...</a></p>
                                     <img
