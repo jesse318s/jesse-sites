@@ -292,7 +292,7 @@ function App() {
                                 I interned at TIAER (A Tarleton State University research facility) for 2 years, and was a Student Tech for Classroom and Lab Support for 1 year.
                                 I now create web application solutions for my clients utilizing my knowledge and strategies gained from Texas State Technical College,
                                 my new place of study for Computer Programming.</p>
-                            <p className="mb-0">I can create vanilla HTML/CSS/JS websites, React apps, and MERN stack apps. I can also manage and code Wordpress websites.</p>
+                            <p className="mb-0">I can create vanilla HTML/CSS/JS websites, React apps, and MERN stack apps.</p>
                         </div>
                         <hr class="my-5" />
                     </div>
