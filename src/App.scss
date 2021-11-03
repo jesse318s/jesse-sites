@@ -27,6 +27,8 @@
   margin: auto;
   width: 50%;
   white-space: nowrap;
+  position: relative;
+  right: 50px;
 
   @keyframes ani {
     0% {
@@ -63,6 +65,8 @@
 }
 
 .blink {
+  position: relative;
+  bottom: 50px;
   animation: blinker 2s linear infinite;
 }
 
@@ -83,7 +87,7 @@
   
   .blink {
     position: relative;
-    bottom: 200px;
+    bottom: 240px;
   }
 }
 
