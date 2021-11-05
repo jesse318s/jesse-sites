@@ -91,6 +91,20 @@
   }
 }
 
+@media screen and (max-height: 991px) {
+  .popout {
+    font-size: 40px;
+    position: relative;
+    bottom: 160px;
+    right: 60px;
+  }
+  
+  .blink {
+    position: relative;
+    bottom: 240px;
+  }
+}
+
 // phone media query
 @media screen and (max-width: 480px) {
   .popout {
