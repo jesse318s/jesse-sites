@@ -172,7 +172,7 @@ function App() {
                 <div id="projects" style={{ position: "relative", bottom: "95px" }}></div>
                 <section className="text-center mb-5">
                     <h2 className="mb-5 text_shadow">My Projects</h2>
-                    <div className="accordion mx-5" id="projectsAccordion">
+                    <div className="accordion mx-2" id="projectsAccordion">
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingOne">
                                 <button
@@ -183,7 +183,7 @@ function App() {
                                     aria-expanded="false"
                                     aria-controls="collapseOne"
                                 >
-                                    Granbury Art
+                                    <h2>Granbury Art</h2>
                                 </button>
                             </h2>
                             <div
@@ -217,7 +217,7 @@ function App() {
                                     aria-expanded="false"
                                     aria-controls="collapseTwo"
                                 >
-                                    Granbury Fresh
+                                    <h2>Granbury Fresh</h2>
                                 </button>
                             </h2>
                             <div
@@ -253,7 +253,7 @@ function App() {
                                     aria-expanded="false"
                                     aria-controls="collapseThree"
                                 >
-                                    Princigration
+                                    <h2>Princigration</h2>
                                 </button>
                             </h2>
                             <div
