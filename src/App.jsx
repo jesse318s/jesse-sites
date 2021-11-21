@@ -332,7 +332,7 @@ function App() {
                             </p>
                         </li>
                         <li>
-                            <i className={isLightModeActive ? "fas fa-envelope fa-2x text-dark" : "fas fa-envelope-in fa-2x text-light text_shadow"} />
+                            <i className={isLightModeActive ? "fas fa-envelope fa-2x text-dark" : "fas fa-envelope fa-2x text-light text_shadow"} />
                             <p>jesse318s@gmail.com</p>
                         </li>
                         <li>
