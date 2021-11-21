@@ -332,11 +332,11 @@ function App() {
                             </p>
                         </li>
                         <li>
-                            <i className={isLightModeActive ? "fas fa-envelope fa-2x text-dark" : "fab fa-linkedin-in fa-2x text-light text_shadow"} />
+                            <i className={isLightModeActive ? "fas fa-envelope fa-2x text-dark" : "fas fa-envelope-in fa-2x text-light text_shadow"} />
                             <p>jesse318s@gmail.com</p>
                         </li>
                         <li>
-                            <i className={isLightModeActive ? "fas fa-phone fa-2x text-dark" : "fab fa-linkedin-in fa-2x text-light text_shadow"} />
+                            <i className={isLightModeActive ? "fas fa-phone fa-2x text-dark" : "fas fa-phone fa-2x text-light text_shadow"} />
                             <p>+1 325-455-4644</p>
                         </li>
                     </ul>
