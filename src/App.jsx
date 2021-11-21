@@ -26,7 +26,7 @@ function App() {
                             aria-expanded="false"
                             aria-label="Toggle navigation"
                         >
-                            <i className="fas fa-bars"></i>
+                            <i className="fas fa-bars" />
                         </button>
 
                         {/* Collapsible wrapper */}
@@ -60,13 +60,13 @@ function App() {
                         {/* Right elements */}
                         <div className="d-flex align-items-center">
                             <a className={isLightModeActive ? "toggle_light me-4 link-dark" : "toggle_light me-4 link-warning"} onClick={() => switchModes()}>
-                                <i className={isLightModeActive ? "fas fa-adjust fa-2x" : "fas fa-adjust fa-2x text_shadow"}></i>
+                                <i className={isLightModeActive ? "fas fa-adjust fa-2x" : "fas fa-adjust fa-2x text_shadow"} />
                             </a>
                             <a className={isLightModeActive ? "btn btn-dark me-4 shadow-2-strong text-light" : "btn btn-light me-4 shadow-4-strong"} href="https://drive.google.com/file/d/1q_0IETZkUpfSghQxnjyHCSg_JvNHl68_/view?usp=sharing">
                                 My Resume
                             </a>
                             <a className="me-4" href="https://github.com/jesse318s">
-                                <i className={isLightModeActive ? "fab fa-github fa-2x" : "fab fa-github fa-2x text_shadow"}></i>
+                                <i className={isLightModeActive ? "fab fa-github fa-2x" : "fab fa-github fa-2x text_shadow"} />
                             </a>
                         </div>
                         {/* Right elements */}
@@ -109,42 +109,42 @@ function App() {
                         <span>R</span>
                     </p>
                     <div className="d-flex justify-content-center">
-                        <a href="#skills"  className={isLightModeActive ? "btn btn-light btn-rounded btn-outline-* btn-lg blink" : "btn btn-dark btn-rounded btn-outline-* btn-lg blink"}>
-                            <i className="fas fa-angle-down fa-2x"></i></a>
+                        <a href="#skills" className={isLightModeActive ? "btn btn-light btn-rounded btn-outline-* btn-lg blink" : "btn btn-dark btn-rounded btn-outline-* btn-lg blink"}>
+                            <i className="fas fa-angle-down fa-2x" /></a>
                     </div>
                 </section>
-                <div id="skills" className="skills"></div>
+                <div id="skills" className="skills" />
                 <section className="row text-center mt-5 mx-5">
                     <h2 className={isLightModeActive ? "mb-4" : "mb-4 text_shadow"}>My Skills</h2>
                     <div className="col-6">
                         <p className="font-weight-bold pt-4 mb-2">HTML</p>
                         <div className="progress bg-black">
                             <div className="progress-bar" role="progressbar" style={{ width: "100%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100"></div>
+                                aria-valuemax="100" />
                         </div>
                         <p className="mt-2">100%</p>
                         <p className="font-weight-bold pt-4 mb-2">CSS</p>
                         <div className="progress bg-black">
                             <div className="progress-bar" role="progressbar" style={{ width: "98%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100"></div>
+                                aria-valuemax="100" />
                         </div>
                         <p className="mt-2">98%</p>
                         <p className="font-weight-bold pt-4 mb-2">SASS</p>
                         <div className="progress bg-black">
                             <div className="progress-bar" role="progressbar" style={{ width: "95%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100"></div>
+                                aria-valuemax="100" />
                         </div>
                         <p className="mt-2">95%</p>
                         <p className="font-weight-bold pt-4 mb-2">JavaScript</p>
                         <div className="progress bg-black">
                             <div className="progress-bar" role="progressbar" style={{ width: "95%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100"></div>
+                                aria-valuemax="100" />
                         </div>
                         <p className="mt-2">95%</p>
                         <p className="font-weight-bold pt-4 mb-2">Bootstrap</p>
                         <div className="progress bg-black">
                             <div className="progress-bar" role="progressbar" style={{ width: "98%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100"></div>
+                                aria-valuemax="100" />
                         </div>
                         <p className="mt-2">98%</p>
                     </div>
@@ -152,37 +152,37 @@ function App() {
                         <p className="font-weight-bold pt-4 mb-2">React.js</p>
                         <div className="progress bg-black">
                             <div className="progress-bar" role="progressbar" style={{ width: "95%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100"></div>
+                                aria-valuemax="100" />
                         </div>
                         <p className="mt-2">95%</p>
                         <p className="font-weight-bold pt-4 mb-2">Node.js</p>
                         <div className="progress bg-black">
                             <div className="progress-bar" role="progressbar" style={{ width: "95%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100"></div>
+                                aria-valuemax="100" />
                         </div>
                         <p className="mt-2">95%</p>
                         <p className="font-weight-bold pt-4 mb-2">MongoDB</p>
                         <div className="progress bg-black">
                             <div className="progress-bar" role="progressbar" style={{ width: "89%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100"></div>
+                                aria-valuemax="100" />
                         </div>
                         <p className="mt-2">89%</p>
                         <p className="font-weight-bold pt-4 mb-2">Express.js</p>
                         <div className="progress bg-black">
                             <div className="progress-bar" role="progressbar" style={{ width: "89%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100"></div>
+                                aria-valuemax="100" />
                         </div>
                         <p className="mt-2">89%</p>
                         <p className="font-weight-bold pt-4 mb-2">GitHub</p>
                         <div className="progress bg-black">
                             <div className="progress-bar" role="progressbar" style={{ width: "93%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100"></div>
+                                aria-valuemax="100" />
                         </div>
                         <p className="mt-2">93%</p>
                     </div>
                     <hr className="my-5" />
                 </section>
-                <div id="projects" className="projects"></div>
+                <div id="projects" className="projects" />
                 <section className="text-center mb-5">
                     <h2 className={isLightModeActive ? "mb-5" : "mb-5 text_shadow"}>My Projects</h2>
                     <div className="accordion mx-2" id="projectsAccordion">
@@ -293,7 +293,7 @@ function App() {
                     </div>
                     <hr className="my-5 mx-5" />
                 </section>
-                <div id="about" className="about"></div>
+                <div id="about" className="about" />
                 <section className="text-center">
 
                     <h2 className={isLightModeActive ? "mb-5" : "mb-5 text_shadow"}>About Me</h2>
@@ -314,7 +314,7 @@ function App() {
             </main>
 
             <footer className={isLightModeActive ? "bg-light text-dark" : "bg-dark text-light"}>
-                <div id="contact" className="contact"></div>
+                <div id="contact" className="contact" />
                 <div className="text-center mb-5">
 
                     <h2 className={isLightModeActive ? "mb-5" : "mb-5 text_shadow"}>Contact Me</h2>
@@ -326,17 +326,17 @@ function App() {
 
                     <ul className="list-unstyled mb-0">
                         <li>
-                            <i className={isLightModeActive ? "fab fa-linkedin-in fa-2x text-dark" : "fab fa-linkedin-in fa-2x text-light text_shadow"}></i>
+                            <i className={isLightModeActive ? "fab fa-linkedin-in fa-2x text-dark" : "fab fa-linkedin-in fa-2x text-light text_shadow"} />
                             <p className="text-decoration-underline">
                                 <a href="https://www.linkedin.com/in/jesse-sites/">https://www.linkedin.com/in/jesse-sites/</a>
                             </p>
                         </li>
                         <li>
-                            <i className={isLightModeActive ? "fas fa-envelope fa-2x text-dark" : "fab fa-linkedin-in fa-2x text-light text_shadow"}></i>
+                            <i className={isLightModeActive ? "fas fa-envelope fa-2x text-dark" : "fab fa-linkedin-in fa-2x text-light text_shadow"} />
                             <p>jesse318s@gmail.com</p>
                         </li>
                         <li>
-                            <i className={isLightModeActive ? "fas fa-phone fa-2x text-dark" : "fab fa-linkedin-in fa-2x text-light text_shadow"}></i>
+                            <i className={isLightModeActive ? "fas fa-phone fa-2x text-dark" : "fab fa-linkedin-in fa-2x text-light text_shadow"} />
                             <p>+1 325-455-4644</p>
                         </li>
                     </ul>
