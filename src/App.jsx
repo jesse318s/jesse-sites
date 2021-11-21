@@ -113,7 +113,7 @@ function App() {
                             <i className="fas fa-angle-down fa-2x" /></a>
                     </div>
                 </section>
-                <div id="skills"/>
+                <div id="skills" />
                 <section className="row text-center mt-5 mx-5">
                     <h2 className={isLightModeActive ? "mb-4" : "mb-4 text_shadow"}>My Skills</h2>
                     <div className="col-6">
@@ -182,7 +182,7 @@ function App() {
                     </div>
                     <hr className="my-5" />
                 </section>
-                <div id="projects"/>
+                <div id="projects" />
                 <section className="text-center mb-5">
                     <h2 className={isLightModeActive ? "mb-5" : "mb-5 text_shadow"}>My Projects</h2>
                     <div className="accordion mx-2" id="projectsAccordion">
@@ -293,7 +293,7 @@ function App() {
                     </div>
                     <hr className="my-5 mx-5" />
                 </section>
-                <div id="about"/>
+                <div id="about" />
                 <section className="text-center">
 
                     <h2 className={isLightModeActive ? "mb-5" : "mb-5 text_shadow"}>About Me</h2>
