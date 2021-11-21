@@ -36,7 +36,7 @@ function App() {
                                 <h1 className="navbar_title text_shadow">JS</h1>
                             </a>
                             {/* Left links */}
-                            <ul className="navbar-nav me-auto">
+                            <ul className="navbar-nav me-auto font-weight-bold">
                                 <li className="nav-item">
                                     <a className="nav-link" href="">Home</a>
                                 </li>
