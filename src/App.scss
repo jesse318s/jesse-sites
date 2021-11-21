@@ -4,7 +4,7 @@
   overflow: hidden;
 }
 
-.nav_title {
+.navbar_title {
   font-family: "Roboto Draft";
   color: lightblue;
   padding: 5px;
@@ -12,6 +12,34 @@
 
 .text_shadow {
   text-shadow: 3px 3px 3px black;
+}
+
+.toggle_light {
+  cursor: pointer;
+}
+
+.skills {
+  position: relative;
+  bottom: 45px;
+}
+
+.about {
+  position: "relative";
+  bottom: "100px";
+}
+
+.projects {
+  position: "relative";
+  bottom: "95px";
+}
+
+.contact {
+  position: "relative";
+  bottom: "55px";
+}
+
+.copyright {
+  background-color: "rgba(0, 0, 0, 0.2)";
 }
 
 // animations
