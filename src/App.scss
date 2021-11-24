@@ -18,6 +18,16 @@
   cursor: pointer;
 }
 
+.sun {
+  border-radius: 50%;
+  box-shadow: 0 0 40px orange, 0 0 150px yellow, inset 0 0 10px yellow;
+}
+
+.moon {
+  border-radius: 50%;
+  box-shadow: 0 0 40px black, 0 0 150px black, inset 0 0 10px black;
+}
+
 .copyright {
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -89,21 +99,7 @@
 }
 
 // tablet media query
-@media screen and (max-width: 991px) {
-  .popout {
-    font-size: 40px;
-    position: relative;
-    bottom: 160px;
-    right: 60px;
-  }
-
-  .blink {
-    position: relative;
-    bottom: 240px;
-  }
-}
-
-@media screen and (max-height: 600px) {
+@media screen and (max-width: 991px), screen and (max-height: 600px) {
   .popout {
     font-size: 40px;
     position: relative;

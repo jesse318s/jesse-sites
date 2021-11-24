@@ -3,15 +3,15 @@ import './App.scss';
 
 function App() {
 
-    const [isLightModeActive, setIsLightModeActive] = useState(false)
+    // light mode state
+    const [isLightModeActive, setIsLightModeActive] = useState(false);
 
-    const switchModes = () => {
-        setIsLightModeActive(!isLightModeActive);
-    }
+    // light mode toggle function
+    const switchModes = () => { setIsLightModeActive(!isLightModeActive); }
 
     return (
         <>
-            <header>
+            <header id="home">
                 {/* Navbar */}
                 <nav className={isLightModeActive ? "navbar navbar-expand-lg navbar-light bg-light fixed-top" : "navbar navbar-expand-lg navbar-dark bg-dark fixed-top"}>
                     {/* Container wrapper */}
@@ -38,7 +38,7 @@ function App() {
                             {/* Left links */}
                             <ul className="navbar-nav me-auto font-weight-bold">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="">Home</a>
+                                    <a className="nav-link" href="#home">Home</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#skills">Skills</a>
@@ -58,15 +58,21 @@ function App() {
                         {/* Collapsible wrapper */}
 
                         {/* Right elements */}
-                        <div className="d-flex align-items-center">
-                            <a className={isLightModeActive ? "toggle_light me-4 link-dark" : "toggle_light me-4 link-warning"} onClick={() => switchModes()}>
-                                <i className={isLightModeActive ? "fas fa-adjust fa-2x" : "fas fa-adjust fa-2x text_shadow"} />
+                        <div className="d-flex align-items-center text-center">
+                            {/* resume button */}
+                            <a className={isLightModeActive ? "btn btn-dark me-4 shadow-2-strong text-light" : "btn btn-light me-4 shadow-4-strong"}
+                                href="https://drive.google.com/file/d/1qzcJjbT22vJWuZY1T84ijxm1pZ8RJ0-q/view?usp=sharing">
+                                <div className="font-weight-bold">My Resume</div>
                             </a>
-                            <a className={isLightModeActive ? "btn btn-dark me-4 shadow-2-strong text-light" : "btn btn-light me-4 shadow-4-strong"} href="https://drive.google.com/file/d/1q_0IETZkUpfSghQxnjyHCSg_JvNHl68_/view?usp=sharing">
-                                My Resume
-                            </a>
+                            {/* GitHub icon */}
                             <a className="me-4" href="https://github.com/jesse318s">
                                 <i className={isLightModeActive ? "fab fa-github fa-2x" : "fab fa-github fa-2x text_shadow"} />
+                                <aside className="font-weight-bold">GitHub</aside>
+                            </a>
+                            {/* light mode toggle */}
+                            <a className={isLightModeActive ? "toggle_light me-4 link-dark" : "toggle_light me-4 link-warning"} onClick={() => switchModes()}>
+                                <i className={isLightModeActive ? "fas fa-adjust fa-2x moon" : "fas fa-adjust fa-2x sun"} />
+                                <aside className="font-weight-bold">Mode</aside>
                             </a>
                         </div>
                         {/* Right elements */}
@@ -77,12 +83,14 @@ function App() {
             </header>
 
             <main className={isLightModeActive ? "bg-light text-dark" : "bg-dark text-light"}>
+                {/* background image */}
                 <section style={{
                     background: `url('${process.env.PUBLIC_URL}/img/landing_img.webp')`,
                     backgroundSize: "cover",
                     height: "100vh",
                     width: "99vw"
                 }}>
+                    {/* popout animation */}
                     <p className="popout">
                         <span>J</span>
                         <span>E</span>
@@ -108,14 +116,18 @@ function App() {
                         <span>E</span>
                         <span>R</span>
                     </p>
+                    {/* down button */}
                     <div className="d-flex justify-content-center">
-                        <a href="#skills" className={isLightModeActive ? "btn btn-light btn-rounded btn-outline-* btn-lg blink" : "btn btn-dark btn-rounded btn-outline-* btn-lg blink"}>
+                        <a href="#skills"
+                            className={isLightModeActive ? "btn btn-light btn-rounded btn-outline-* btn-lg blink" : "btn btn-dark btn-rounded btn-outline-* btn-lg blink"}>
                             <i className="fas fa-angle-down fa-2x" /></a>
                     </div>
                 </section>
+
                 <div id="skills" />
                 <section className="row text-center mt-5 mx-5">
                     <h2 className={isLightModeActive ? "mb-4" : "mb-4 text_shadow"}>My Skills</h2>
+                    {/* progress bars */}
                     <div className="col-6">
                         <p className="font-weight-bold pt-4 mb-2">HTML</p>
                         <div className="progress bg-black">
@@ -125,7 +137,7 @@ function App() {
                         <p className="mt-2">100%</p>
                         <p className="font-weight-bold pt-4 mb-2">CSS</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar" role="progressbar" style={{ width: "98%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar" role="progressbar" style={{ width: "100%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" />
                         </div>
                         <p className="mt-2">98%</p>
@@ -151,7 +163,7 @@ function App() {
                     <div className="col-6">
                         <p className="font-weight-bold pt-4 mb-2">React.js</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar" role="progressbar" style={{ width: "95%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar" role="progressbar" style={{ width: "98%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" />
                         </div>
                         <p className="mt-2">95%</p>
@@ -163,30 +175,34 @@ function App() {
                         <p className="mt-2">95%</p>
                         <p className="font-weight-bold pt-4 mb-2">MongoDB</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar" role="progressbar" style={{ width: "89%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar" role="progressbar" style={{ width: "90%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" />
                         </div>
-                        <p className="mt-2">89%</p>
+                        <p className="mt-2">90%</p>
                         <p className="font-weight-bold pt-4 mb-2">Express.js</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar" role="progressbar" style={{ width: "89%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar" role="progressbar" style={{ width: "90%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" />
                         </div>
-                        <p className="mt-2">89%</p>
+                        <p className="mt-2">90%</p>
                         <p className="font-weight-bold pt-4 mb-2">GitHub</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar" role="progressbar" style={{ width: "93%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar" role="progressbar" style={{ width: "95%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" />
                         </div>
-                        <p className="mt-2">93%</p>
+                        <p className="mt-2">95%</p>
                     </div>
                     <hr className="my-5" />
                 </section>
+
                 <div id="projects" />
                 <section className="text-center mb-5">
                     <h2 className={isLightModeActive ? "mb-5" : "mb-5 text_shadow"}>My Projects</h2>
+                    {/* projects accordion */}
                     <div className="accordion mx-2" id="projectsAccordion">
+                        {/* accordion option */}
                         <div className="accordion-item">
+                            {/* accordion option closed */}
                             <h2 className="accordion-header" id="headingOne">
                                 <button
                                     className="accordion-button collapsed"
@@ -199,6 +215,7 @@ function App() {
                                     <h2>Granbury Art</h2>
                                 </button>
                             </h2>
+                            {/* accordion option open */}
                             <div
                                 id="collapseOne"
                                 className="accordion-collapse collapse"
@@ -220,7 +237,9 @@ function App() {
                                 </div>
                             </div>
                         </div>
+                        {/* accordion option */}
                         <div className="accordion-item">
+                            {/* accordion option closed */}
                             <h2 className="accordion-header" id="headingTwo">
                                 <button
                                     className="accordion-button collapsed"
@@ -233,6 +252,7 @@ function App() {
                                     <h2>Granbury Fresh</h2>
                                 </button>
                             </h2>
+                            {/* accordion option open */}
                             <div
                                 id="collapseTwo"
                                 className="accordion-collapse collapse"
@@ -256,7 +276,9 @@ function App() {
                                 </div>
                             </div>
                         </div>
+                        {/* accordion option */}
                         <div className="accordion-item">
+                            {/* accordion option closed */}
                             <h2 className="accordion-header" id="headingThree">
                                 <button
                                     className="accordion-button collapsed"
@@ -269,6 +291,7 @@ function App() {
                                     <h2>Princigration</h2>
                                 </button>
                             </h2>
+                            {/* accordion option open */}
                             <div
                                 id="collapseThree"
                                 className="accordion-collapse collapse"
@@ -293,11 +316,10 @@ function App() {
                     </div>
                     <hr className="my-5 mx-5" />
                 </section>
+
                 <div id="about" />
                 <section className="text-center">
-
                     <h2 className={isLightModeActive ? "mb-5" : "mb-5 text_shadow"}>About Me</h2>
-
                     <div className="row mx-5">
                         <div className="col-12">
                             <p className="lead">Hello, my name is Jesse Sites and I'm a web developer based in Texas.</p>
@@ -316,14 +338,12 @@ function App() {
             <footer className={isLightModeActive ? "bg-light text-dark" : "bg-dark text-light"}>
                 <div id="contact" />
                 <div className="text-center mb-5">
-
                     <h2 className={isLightModeActive ? "mb-5" : "mb-5 text_shadow"}>Contact Me</h2>
-
                     <p className="mb-5 mx-auto w-responsive">
                         I can be contacted via LinkedIn, email, text, or call. Since a direct email may be caught in my spam filter,
                         my LinkedIn profile is the best method to contact me quickly. I check my LinkedIn messages daily.
                     </p>
-
+                    {/* contact icons list */}
                     <ul className="list-unstyled mb-0">
                         <li>
                             <i className={isLightModeActive ? "fab fa-linkedin-in fa-2x text-dark" : "fab fa-linkedin-in fa-2x text-light text_shadow"} />
@@ -340,7 +360,6 @@ function App() {
                             <p>+1 325-455-4644</p>
                         </li>
                     </ul>
-
                 </div>
                 <div className="copyright text-center p-3">
                     © 2021 Copyright: Jesse Sites
