@@ -88,7 +88,7 @@ function App() {
                     background: `url('${process.env.PUBLIC_URL}/img/landing_img.webp')`,
                     backgroundSize: "cover",
                     height: "100vh",
-                    width: "99vw"
+                    width: "99.1vw"
                 }}>
                     {/* popout animation */}
                     <p className="popout">
@@ -361,7 +361,7 @@ function App() {
                         </li>
                     </ul>
                 </div>
-                <div className="bg-black bg-gradient text-center p-3">
+                <div className="bg-black bg-gradient text-center text-light p-3">
                     © 2021 Copyright: Jesse Sites
                 </div>
             </footer>
