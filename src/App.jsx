@@ -131,31 +131,31 @@ function App() {
                     <div className="col-6">
                         <p className="font-weight-bold pt-4 mb-2">HTML</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar" role="progressbar" style={{ width: "100%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar bg-success" role="progressbar" style={{ width: "100%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" />
                         </div>
                         <p className="mt-2">100%</p>
                         <p className="font-weight-bold pt-4 mb-2">CSS</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar" role="progressbar" style={{ width: "100%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar bg-success" role="progressbar" style={{ width: "100%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" />
                         </div>
                         <p className="mt-2">98%</p>
                         <p className="font-weight-bold pt-4 mb-2">SASS</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar" role="progressbar" style={{ width: "95%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar bg-success" role="progressbar" style={{ width: "95%" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" />
                         </div>
                         <p className="mt-2">95%</p>
                         <p className="font-weight-bold pt-4 mb-2">JavaScript</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar" role="progressbar" style={{ width: "95%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar bg-success" role="progressbar" style={{ width: "95%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" />
                         </div>
                         <p className="mt-2">95%</p>
                         <p className="font-weight-bold pt-4 mb-2">Bootstrap</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar" role="progressbar" style={{ width: "98%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar bg-success" role="progressbar" style={{ width: "98%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" />
                         </div>
                         <p className="mt-2">98%</p>
@@ -163,31 +163,31 @@ function App() {
                     <div className="col-6">
                         <p className="font-weight-bold pt-4 mb-2">React.js</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar" role="progressbar" style={{ width: "98%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar bg-success" role="progressbar" style={{ width: "98%" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" />
                         </div>
                         <p className="mt-2">95%</p>
                         <p className="font-weight-bold pt-4 mb-2">Node.js</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar" role="progressbar" style={{ width: "95%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar bg-success" role="progressbar" style={{ width: "95%" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" />
                         </div>
                         <p className="mt-2">95%</p>
                         <p className="font-weight-bold pt-4 mb-2">MongoDB</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar" role="progressbar" style={{ width: "90%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar bg-success" role="progressbar" style={{ width: "90%" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" />
                         </div>
                         <p className="mt-2">90%</p>
                         <p className="font-weight-bold pt-4 mb-2">Express.js</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar" role="progressbar" style={{ width: "90%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar bg-success" role="progressbar" style={{ width: "90%" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" />
                         </div>
                         <p className="mt-2">90%</p>
                         <p className="font-weight-bold pt-4 mb-2">GitHub</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar" role="progressbar" style={{ width: "95%", backgroundColor: "lightblue" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar bg-success" role="progressbar" style={{ width: "95%" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" />
                         </div>
                         <p className="mt-2">95%</p>
@@ -361,7 +361,7 @@ function App() {
                         </li>
                     </ul>
                 </div>
-                <div className="copyright text-center p-3">
+                <div className="bg-black bg-gradient text-center p-3">
                     © 2021 Copyright: Jesse Sites
                 </div>
             </footer>
