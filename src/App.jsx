@@ -88,7 +88,7 @@ function App() {
                     background: `url('${process.env.PUBLIC_URL}/img/landing_img.webp')`,
                     backgroundSize: "cover",
                     height: "100vh",
-                    width: "100vw"
+                    width: "99.1vw"
                 }}>
                     {/* popout animation */}
                     <p className="popout">
