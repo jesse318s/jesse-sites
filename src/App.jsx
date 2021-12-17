@@ -32,7 +32,7 @@ function App() {
                         {/* Collapsible wrapper */}
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             {/* Navbar brand */}
-                            <a className="navbar-brand" href="">
+                            <a className="navbar-brand" href="/">
                                 <h1 className="navbar_title text_shadow">JS</h1>
                             </a>
                             {/* Left links */}
@@ -132,31 +132,31 @@ function App() {
                         <p className="font-weight-bold pt-4 mb-2">HTML</p>
                         <div className="progress bg-black">
                             <div className="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100" />
+                                aria-valuemax="100" aria-label="progressbar" />
                         </div>
                         <p className="mt-2">100%</p>
                         <p className="font-weight-bold pt-4 mb-2">CSS</p>
                         <div className="progress bg-black">
                             <div className="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100" />
+                                aria-valuemax="100" aria-label="progressbar" />
                         </div>
                         <p className="mt-2">98%</p>
                         <p className="font-weight-bold pt-4 mb-2">SASS</p>
                         <div className="progress bg-black">
                             <div className="progress-bar bg-success" role="progressbar" style={{ width: "95%" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100" />
+                                aria-valuemax="100" aria-label="progressbar" />
                         </div>
                         <p className="mt-2">95%</p>
                         <p className="font-weight-bold pt-4 mb-2">JavaScript</p>
                         <div className="progress bg-black">
                             <div className="progress-bar bg-success" role="progressbar" style={{ width: "95%" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100" />
+                                aria-valuemax="100" aria-label="progressbar" />
                         </div>
                         <p className="mt-2">95%</p>
                         <p className="font-weight-bold pt-4 mb-2">Bootstrap</p>
                         <div className="progress bg-black">
                             <div className="progress-bar bg-success" role="progressbar" style={{ width: "98%" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100" />
+                                aria-valuemax="100" aria-label="progressbar" />
                         </div>
                         <p className="mt-2">98%</p>
                     </div>
@@ -164,31 +164,31 @@ function App() {
                         <p className="font-weight-bold pt-4 mb-2">React.js</p>
                         <div className="progress bg-black">
                             <div className="progress-bar bg-success" role="progressbar" style={{ width: "98%" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100" />
+                                aria-valuemax="100" aria-label="progressbar" />
                         </div>
                         <p className="mt-2">95%</p>
                         <p className="font-weight-bold pt-4 mb-2">Node.js</p>
                         <div className="progress bg-black">
                             <div className="progress-bar bg-success" role="progressbar" style={{ width: "95%" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100" />
+                                aria-valuemax="100" aria-label="progressbar" />
                         </div>
                         <p className="mt-2">95%</p>
                         <p className="font-weight-bold pt-4 mb-2">MongoDB</p>
                         <div className="progress bg-black">
                             <div className="progress-bar bg-success" role="progressbar" style={{ width: "90%" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100" />
+                                aria-valuemax="100" aria-label="progressbar" />
                         </div>
                         <p className="mt-2">90%</p>
                         <p className="font-weight-bold pt-4 mb-2">Express.js</p>
                         <div className="progress bg-black">
                             <div className="progress-bar bg-success" role="progressbar" style={{ width: "90%" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100" />
+                                aria-valuemax="100" aria-label="progressbar" />
                         </div>
                         <p className="mt-2">90%</p>
                         <p className="font-weight-bold pt-4 mb-2">GitHub</p>
                         <div className="progress bg-black">
                             <div className="progress-bar bg-success" role="progressbar" style={{ width: "95%" }} aria-valuenow="25" aria-valuemin="0"
-                                aria-valuemax="100" />
+                                aria-valuemax="100" aria-label="progressbar" />
                         </div>
                         <p className="mt-2">95%</p>
                     </div>
