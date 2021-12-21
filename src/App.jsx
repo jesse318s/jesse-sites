@@ -61,7 +61,7 @@ function App() {
                         <div className="d-flex align-items-center text-center">
                             {/* resume button */}
                             <a className={isLightModeActive ? "btn btn-dark me-4 shadow-2-strong text-light" : "btn btn-light me-4 shadow-4-strong"}
-                                href="https://drive.google.com/file/d/1qzcJjbT22vJWuZY1T84ijxm1pZ8RJ0-q/view?usp=sharing">
+                                href="https://drive.google.com/file/d/1uLkGN2AKe70FMN2IbWx6ZUOyHksJ1JpW/view?usp=sharing">
                                 <div className="font-weight-bold">My Resume</div>
                             </a>
                             {/* GitHub icon */}
