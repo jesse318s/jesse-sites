@@ -70,7 +70,7 @@ function App() {
                                 <aside className="font-weight-bold">GitHub</aside>
                             </a>
                             {/* light mode toggle */}
-                            <a className={isLightModeActive ? "toggle_light me-4 link-dark" : "toggle_light me-4 link-warning"} onClick={() => switchModes()}>
+                            <a className={isLightModeActive ? "toggle_mode me-4 link-dark" : "toggle_mode me-4 link-warning"} onClick={() => switchModes()}>
                                 <i className={isLightModeActive ? "fas fa-adjust fa-2x moon" : "fas fa-adjust fa-2x sun"} />
                                 <aside className="font-weight-bold">Mode</aside>
                             </a>
@@ -361,7 +361,7 @@ function App() {
                         </li>
                     </ul>
                 </div>
-                <div className="bg-black bg-gradient text-center text-light p-3">
+                <div className={isLightModeActive ? "bg-light bg-gradient text-center text-dark p-3" : "bg-black bg-gradient text-center text-light p-3"}>
                     © 2021 Copyright: Jesse Sites
                 </div>
             </footer>

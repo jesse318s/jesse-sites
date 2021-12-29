@@ -1,9 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Segoe UI";
 }
 
-// styles
+.text_shadow {
+  text-shadow: 3px 3px 3px black;
+}
 
+// styles
 nav {
   overflow: hidden;
 }
@@ -14,11 +25,7 @@ nav {
   padding: 5px;
 }
 
-.text_shadow {
-  text-shadow: 3px 3px 3px black;
-}
-
-.toggle_light {
+.toggle_mode {
   cursor: pointer;
 }
 
