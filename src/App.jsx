@@ -137,10 +137,10 @@ function App() {
                         <p className="mt-2">100%</p>
                         <p className="font-weight-bold pt-4 mb-2">CSS</p>
                         <div className="progress bg-black">
-                            <div className="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="25" aria-valuemin="0"
+                            <div className="progress-bar bg-success" role="progressbar" style={{ width: "99%" }} aria-valuenow="25" aria-valuemin="0"
                                 aria-valuemax="100" aria-label="progressbar" />
                         </div>
-                        <p className="mt-2">98%</p>
+                        <p className="mt-2">99%</p>
                         <p className="font-weight-bold pt-4 mb-2">SASS</p>
                         <div className="progress bg-black">
                             <div className="progress-bar bg-success" role="progressbar" style={{ width: "95%" }} aria-valuenow="25" aria-valuemin="0"
@@ -212,7 +212,7 @@ function App() {
                                     aria-expanded="false"
                                     aria-controls="collapseOne"
                                 >
-                                    <h2>Granbury Art</h2>
+                                    <h2>Granbury Art - Art Gallery Website</h2>
                                 </button>
                             </h2>
                             {/* accordion option open */}
@@ -249,7 +249,7 @@ function App() {
                                     aria-expanded="false"
                                     aria-controls="collapseTwo"
                                 >
-                                    <h2>Granbury Fresh</h2>
+                                    <h2>Granbury Fresh - Informative Environmental Website</h2>
                                 </button>
                             </h2>
                             {/* accordion option open */}
@@ -288,7 +288,7 @@ function App() {
                                     aria-expanded="false"
                                     aria-controls="collapseThree"
                                 >
-                                    <h2>Princigration</h2>
+                                    <h2>Princigration - Software Blog</h2>
                                 </button>
                             </h2>
                             {/* accordion option open */}
@@ -300,11 +300,48 @@ function App() {
                             >
                                 <div className="accordion-body text-dark">
                                     <p>Princigration Landing Page and Blog App</p>
-                                    <strong><p>I was the leading developer for this website.</p></strong>
+                                    <strong><p>I was the leading developer for this web app.</p></strong>
                                     <p className="text-decoration-underline"><a href="https://princigration.herokuapp.com/">Visit website...</a></p>
                                     <img
                                         className="shadow-2-strong"
                                         src={process.env.PUBLIC_URL + "/img/princigration.webp"}
+                                        width="75%"
+                                        height="75%"
+                                        loading="lazy"
+                                    >
+                                    </img>
+                                </div>
+                            </div>
+                        </div>
+                        {/* accordion option */}
+                        <div className="accordion-item">
+                            {/* accordion option closed */}
+                            <h2 className="accordion-header" id="headingFour">
+                                <button
+                                    className="accordion-button collapsed"
+                                    type="button"
+                                    data-mdb-toggle="collapse"
+                                    data-mdb-target="#collapseFour"
+                                    aria-expanded="false"
+                                    aria-controls="collapseFour"
+                                >
+                                    <h2>Omega Summoners - Role Playing Game</h2>
+                                </button>
+                            </h2>
+                            {/* accordion option open */}
+                            <div
+                                id="collapseFour"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="headingFour"
+                                data-mdb-parent="#projectsAccordion"
+                            >
+                                <div className="accordion-body text-dark">
+                                    <p>Omega summoners is an online, multi-platform role playing game.</p>
+                                    <strong><p>I was the only developer for this web app.</p></strong>
+                                    <p className="text-decoration-underline"><a href="https://omega-summoners.herokuapp.com/">Visit website...</a></p>
+                                    <img
+                                        className="shadow-2-strong"
+                                        src={process.env.PUBLIC_URL + "/img/omega_summoners.webp"}
                                         width="75%"
                                         height="75%"
                                         loading="lazy"
