@@ -360,9 +360,10 @@ function App() {
                     <div className="row mx-5">
                         <div className="col-12">
                             <p className="lead">Hello, my name is Jesse Sites and I'm a web developer based in Texas.</p>
-                            <p>I'm a Computer Programming student with 3 years of experience in the field of information technology at Tarleton State University.
-                                I interned at TIAER (A Tarleton State University research facility) for 2 years, and was a Student Tech for Classroom and Lab Support for 1 year.
-                                I now create web application solutions for my clients utilizing my knowledge and strategies gained from Texas State Technical College,
+                            <p>I'm currently a Computer Programming student at TSTC with one year of experience as a freelance web developer,
+                                and with two years of experience in the field of information technology at Tarleton State University. I interned at TIAER (A TSU research facility)
+                                for one year, and was a Student Tech for Classroom and Lab Support at TSU for one year.
+                                I now create web development solutions for my clients utilizing my knowledge and strategies gained from Texas State Technical College,
                                 my new place of study for Computer Programming.</p>
                             <p className="mb-0">I can create vanilla HTML/CSS/JS websites, React apps, and MERN stack apps.</p>
                         </div>
