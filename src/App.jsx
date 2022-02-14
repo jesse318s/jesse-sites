@@ -364,7 +364,7 @@ function App() {
                                 and with two years of experience in the field of information technology at Tarleton State University. I interned at TIAER (A TSU research facility)
                                 for one year, and was a Student Tech for Classroom and Lab Support at TSU for one year.
                                 I now create web development solutions for my clients utilizing my knowledge and strategies gained from Texas State Technical College,
-                                my new place of study for Computer Programming.</p>
+                                my new place of study for Computer Programming. I also provide software consultation.</p>
                             <p className="mb-0">I can create vanilla HTML/CSS/JS websites, React apps, and MERN stack apps.</p>
                         </div>
                         <hr className="my-5" />
