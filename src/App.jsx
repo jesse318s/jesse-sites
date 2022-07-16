@@ -377,7 +377,7 @@ function App() {
                 <div id="contact" />
                 <div className="text-center mb-5">
                     <h2 className={isLightModeActive ? "mb-5" : "mb-5 text_shadow"}>Contact Me</h2>
-                    <p className="mb-5 mx-5 w-responsive">
+                    <p className="mb-5 mx-5">
                         I can be contacted via LinkedIn, email, text, or call. Since a direct email may be caught in my spam filter,
                         my LinkedIn profile is the best method to contact me quickly. I check my LinkedIn messages daily.
                     </p>
