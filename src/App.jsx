@@ -42,7 +42,10 @@ function App() {
               id="navbarSupportedContent"
             >
               {/* Navbar brand */}
-              <a className="navbar-brand" href="/">
+              <a
+                className="navbar-brand"
+                href="https://jesse318s.github.io/jesse-sites-react-app/"
+              >
                 <h1 className="navbar_title text_shadow">JS</h1>
               </a>
               {/* Left links */}
