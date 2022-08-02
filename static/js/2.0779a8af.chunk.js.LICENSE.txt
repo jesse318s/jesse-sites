@@ -4,25 +4,6 @@ object-assign
 @license MIT
 */
 
-/*!
- * MDB5
- *   Version: FREE 3.9.0
- * 
- * 
- *   Copyright: Material Design for Bootstrap
- *   https://mdbootstrap.com/
- * 
- *   Read the license: https://mdbootstrap.com/general/license/
- * 
- * 
- *   Documentation: https://mdbootstrap.com/docs/standard/
- * 
- *   Support: https://mdbootstrap.com/support/
- * 
- *   Contact: office@mdbootstrap.com
- * 
- */
-
 /** @license React v0.20.2
  * scheduler.production.min.js
  *
