@@ -6,7 +6,7 @@ function App() {
   const [isLightModeActive, setIsLightModeActive] = useState(false);
 
   // light mode toggle function
-  const switchModes = () => {
+  const toggleLightMode = () => {
     setIsLightModeActive(!isLightModeActive);
   };
 
@@ -111,7 +111,7 @@ function App() {
                     ? "toggle_mode me-4 link-dark"
                     : "toggle_mode me-4 link-warning"
                 }
-                onClick={() => switchModes()}
+                onClick={() => toggleLightMode()}
               >
                 <i
                   className={
