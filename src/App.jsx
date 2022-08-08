@@ -35,7 +35,6 @@ function App() {
             >
               <i className="fas fa-bars" />
             </button>
-
             {/* Collapsible wrapper */}
             <div
               className="collapse navbar-collapse"
@@ -79,10 +78,8 @@ function App() {
               {/* Left links */}
             </div>
             {/* Collapsible wrapper */}
-
             {/* Right elements */}
             <div className="d-flex align-items-center text-center">
-              {/* resume button */}
               <a
                 className={
                   isLightModeActive
@@ -93,7 +90,6 @@ function App() {
               >
                 <div className="font-weight-bold">My Resume</div>
               </a>
-              {/* GitHub icon */}
               <a className="me-4" href="https://github.com/jesse318s">
                 <i
                   className={
@@ -191,7 +187,6 @@ function App() {
           <h2 className={isLightModeActive ? "mb-4" : "mb-4 text_shadow"}>
             My Skills
           </h2>
-          {/* progress bars */}
           <div className="col-6">
             <p className="font-weight-bold pt-4 mb-2">HTML</p>
             <div className="progress bg-black">
@@ -565,7 +560,6 @@ function App() {
             the best method to contact me quickly. I check my LinkedIn messages
             daily.
           </p>
-          {/* contact icons list */}
           <ul className="list-unstyled mb-0">
             <li>
               <i
