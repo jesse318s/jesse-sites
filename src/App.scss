@@ -87,7 +87,7 @@ nav {
     animation: ani $t infinite alternate $e;
     @for $i from 1 through $n {
       &:nth-last-child(#{$i}n) {
-        animation-delay: -$t * $i/$n/2;
+        animation-delay: -$t * calc($i/$n/2);
       }
     }
   }
