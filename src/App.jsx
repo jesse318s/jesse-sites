@@ -446,9 +446,7 @@ function App() {
                     <p>I was the leading developer for this web app.</p>
                   </strong>
                   <p className="text-decoration-underline">
-                    <a href="https://princigration.herokuapp.com/">
-                      Visit website...
-                    </a>
+                    <a href="https://princigration.com/">Visit website...</a>
                   </p>
                   <img
                     className="shadow-2-strong"
@@ -457,52 +455,6 @@ function App() {
                     height="75%"
                     loading="lazy"
                     alt="The Princigration website"
-                  ></img>
-                </div>
-              </div>
-            </div>
-            {/* accordion option */}
-            <div className="accordion-item">
-              {/* accordion option closed */}
-              <h2 className="accordion-header" id="headingFour">
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-mdb-toggle="collapse"
-                  data-mdb-target="#collapseFour"
-                  aria-expanded="false"
-                  aria-controls="collapseFour"
-                >
-                  <h2>Omega Summoners - Role Playing Game</h2>
-                </button>
-              </h2>
-              {/* accordion option open */}
-              <div
-                id="collapseFour"
-                className="accordion-collapse collapse"
-                aria-labelledby="headingFour"
-                data-mdb-parent="#projectsAccordion"
-              >
-                <div className="accordion-body text-dark">
-                  <p>
-                    Omega summoners is an online, multi-platform role playing
-                    game.
-                  </p>
-                  <strong>
-                    <p>I was the only developer for this web app.</p>
-                  </strong>
-                  <p className="text-decoration-underline">
-                    <a href="https://omega-summoners.herokuapp.com/">
-                      Visit website...
-                    </a>
-                  </p>
-                  <img
-                    className="shadow-2-strong"
-                    src={process.env.PUBLIC_URL + "/img/omega_summoners.webp"}
-                    width="75%"
-                    height="75%"
-                    loading="lazy"
-                    alt="The Omega Summoners website"
                   ></img>
                 </div>
               </div>
