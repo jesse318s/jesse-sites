@@ -90,7 +90,7 @@ function App() {
               >
                 <div className="font-weight-bold">My Resume</div>
               </a>
-              <a className="me-4" href="https://github.com/jesse318s">
+              <a className="me-4 text-info" href="https://github.com/jesse318s">
                 <i
                   className={
                     isLightModeActive
@@ -177,6 +177,8 @@ function App() {
                   : "btn btn-dark btn-rounded btn-outline-* btn-lg blink"
               }
             >
+              My Skills
+              <br />
               <i className="fas fa-angle-down fa-2x" />
             </a>
           </div>
@@ -498,7 +500,7 @@ function App() {
 
       <footer
         className={
-          isLightModeActive ? "bg-light text-dark" : "bg-dark text-light"
+          isLightModeActive ? "bg-light text-dark" : "bg-light text-dark"
         }
       >
         <div id="contact" />
@@ -553,7 +555,7 @@ function App() {
           className={
             isLightModeActive
               ? "bg-light bg-gradient text-center text-dark p-3"
-              : "bg-black bg-gradient text-center text-light p-3"
+              : "bg-dark bg-gradient text-center text-light p-3"
           }
         >
           © 2021 Copyright: Jesse Sites
