@@ -176,8 +176,7 @@ function App() {
                   : "btn btn-dark btn-rounded btn-outline-* btn-lg blink"
               }
             >
-              My Skills
-              <br />
+              <h2 className={isLightModeActive ? "" : "text_shadow"}>Skills</h2>
               <i className="fas fa-angle-down fa-2x" />
             </a>
           </div>
