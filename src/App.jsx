@@ -90,7 +90,12 @@ function App() {
               >
                 <div className="font-weight-bold">My Resume</div>
               </a>
-              <a className="me-4 text-info" href="https://github.com/jesse318s">
+              <a
+                className={
+                  isLightModeActive ? "me-4 text-dark" : "me-4 text-light"
+                }
+                href="https://github.com/jesse318s"
+              >
                 <i
                   className={
                     isLightModeActive
@@ -498,16 +503,10 @@ function App() {
         </section>
       </main>
 
-      <footer
-        className={
-          isLightModeActive ? "bg-light text-dark" : "bg-light text-dark"
-        }
-      >
+      <footer className="bg-light text-dark">
         <div id="contact" />
         <div className="text-center mb-5">
-          <h2 className={isLightModeActive ? "mb-5" : "mb-5 text_shadow"}>
-            Contact Me
-          </h2>
+          <h2 className="my-5">Contact Me</h2>
           <p className="mb-5 mx-5">
             I can be contacted via LinkedIn, email, text, or call. Since a
             direct email may be caught in my spam filter, my LinkedIn profile is
@@ -516,13 +515,7 @@ function App() {
           </p>
           <ul className="list-unstyled mb-0">
             <li>
-              <i
-                className={
-                  isLightModeActive
-                    ? "fab fa-linkedin-in fa-2x text-dark"
-                    : "fab fa-linkedin-in fa-2x text-light text_shadow"
-                }
-              />
+              <i className="fab fa-linkedin-in fa-2x text-dark" />
               <p className="text-decoration-underline">
                 <a href="https://www.linkedin.com/in/jesse-sites/">
                   https://www.linkedin.com/in/jesse-sites/
@@ -530,23 +523,11 @@ function App() {
               </p>
             </li>
             <li>
-              <i
-                className={
-                  isLightModeActive
-                    ? "fas fa-envelope fa-2x text-dark"
-                    : "fas fa-envelope fa-2x text-light text_shadow"
-                }
-              />
+              <i className="fas fa-envelope fa-2x text-dark" />
               <p>jesse318s@gmail.com</p>
             </li>
             <li>
-              <i
-                className={
-                  isLightModeActive
-                    ? "fas fa-phone fa-2x text-dark"
-                    : "fas fa-phone fa-2x text-light text_shadow"
-                }
-              />
+              <i className="fas fa-phone fa-2x text-dark" />
               <p>+1 325-455-4644</p>
             </li>
           </ul>
