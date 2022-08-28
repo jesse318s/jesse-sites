@@ -83,7 +83,7 @@ function App() {
               <a
                 className={
                   isLightModeActive
-                    ? "btn btn-dark me-4 shadow-2-strong text-light"
+                    ? "btn btn-dark me-4 shadow-4-strong text-light"
                     : "btn btn-light me-4 shadow-4-strong"
                 }
                 href="https://drive.google.com/file/d/1i23xD7hkb9rnkJXxSkosqLK--6rKvLJR/view?usp=sharing"
@@ -96,13 +96,7 @@ function App() {
                 }
                 href="https://github.com/jesse318s"
               >
-                <i
-                  className={
-                    isLightModeActive
-                      ? "fab fa-github fa-2x"
-                      : "fab fa-github fa-2x text_shadow"
-                  }
-                />
+                <i className="fab fa-github fa-2x text_shadow" />
                 <aside className="font-weight-bold">GitHub</aside>
               </a>
               {/* light mode toggle */}
