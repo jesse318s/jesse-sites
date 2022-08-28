@@ -84,7 +84,7 @@ function App() {
                 className={
                   isLightModeActive
                     ? "btn btn-dark me-4 shadow-4-strong text-light"
-                    : "btn btn-light me-4 shadow-4-strong"
+                    : "btn btn-light me-4"
                 }
                 href="https://drive.google.com/file/d/1i23xD7hkb9rnkJXxSkosqLK--6rKvLJR/view?usp=sharing"
               >
