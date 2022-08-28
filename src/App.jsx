@@ -497,7 +497,7 @@ function App() {
         </section>
       </main>
 
-      <footer className="bg-light text-dark">
+      <footer className="text-dark">
         <div id="contact" />
         <div className="text-center mb-5">
           <h2 className="my-5">Contact Me</h2>
