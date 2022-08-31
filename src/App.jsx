@@ -86,7 +86,7 @@ function App() {
                     ? "btn btn-dark me-4 shadow-4-strong text-light"
                     : "btn btn-light me-4"
                 }
-                href="https://drive.google.com/file/d/1i23xD7hkb9rnkJXxSkosqLK--6rKvLJR/view?usp=sharing"
+                href="https://docs.google.com/document/d/1AuDoPstztHD-cxnOyms-Ih_d4n4-4UTJx5f1lgHndHM/edit?usp=sharing"
               >
                 <div className="font-weight-bold">My Resume</div>
               </a>
