@@ -153,16 +153,14 @@ function App() {
             <span>S&nbsp;</span>
             <span>-</span>
             <br />
-            <span>W</span>
-            <span>E</span>
-            <span>B&nbsp;</span>
-            <span>D</span>
-            <span>E</span>
-            <span>V</span>
-            <span>E</span>
-            <span>L</span>
-            <span>O</span>
             <span>P</span>
+            <span>R</span>
+            <span>O</span>
+            <span>G</span>
+            <span>R</span>
+            <span>A</span>
+            <span>M</span>
+            <span>M</span>
             <span>E</span>
             <span>R</span>
           </p>
@@ -206,14 +204,14 @@ function App() {
               <div
                 className="progress-bar bg-success"
                 role="progressbar"
-                style={{ width: "99%" }}
+                style={{ width: "98%" }}
                 aria-valuenow="25"
                 aria-valuemin="0"
                 aria-valuemax="100"
                 aria-label="progressbar"
               />
             </div>
-            <p className="mt-2">99%</p>
+            <p className="mt-2">98%</p>
             <p className="font-weight-bold pt-4 mb-2">SASS</p>
             <div className="progress bg-black">
               <div
@@ -240,7 +238,7 @@ function App() {
               />
             </div>
             <p className="mt-2">95%</p>
-            <p className="font-weight-bold pt-4 mb-2">Bootstrap</p>
+            <p className="font-weight-bold pt-4 mb-2">MDBootstrap</p>
             <div className="progress bg-black">
               <div
                 className="progress-bar bg-success"
@@ -255,20 +253,7 @@ function App() {
             <p className="mt-2">98%</p>
           </div>
           <div className="col-6">
-            <p className="font-weight-bold pt-4 mb-2">React.js</p>
-            <div className="progress bg-black">
-              <div
-                className="progress-bar bg-success"
-                role="progressbar"
-                style={{ width: "98%" }}
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                aria-label="progressbar"
-              />
-            </div>
-            <p className="mt-2">95%</p>
-            <p className="font-weight-bold pt-4 mb-2">Node.js</p>
+            <p className="font-weight-bold pt-4 mb-2">React.js/Vue.js</p>
             <div className="progress bg-black">
               <div
                 className="progress-bar bg-success"
@@ -281,33 +266,9 @@ function App() {
               />
             </div>
             <p className="mt-2">95%</p>
-            <p className="font-weight-bold pt-4 mb-2">MongoDB</p>
-            <div className="progress bg-black">
-              <div
-                className="progress-bar bg-success"
-                role="progressbar"
-                style={{ width: "90%" }}
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                aria-label="progressbar"
-              />
-            </div>
-            <p className="mt-2">90%</p>
-            <p className="font-weight-bold pt-4 mb-2">Express.js</p>
-            <div className="progress bg-black">
-              <div
-                className="progress-bar bg-success"
-                role="progressbar"
-                style={{ width: "90%" }}
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                aria-label="progressbar"
-              />
-            </div>
-            <p className="mt-2">90%</p>
-            <p className="font-weight-bold pt-4 mb-2">GitHub</p>
+            <p className="font-weight-bold pt-4 mb-2">
+              Node.js/Express.js/MongoDB
+            </p>
             <div className="progress bg-black">
               <div
                 className="progress-bar bg-success"
@@ -320,6 +281,45 @@ function App() {
               />
             </div>
             <p className="mt-2">95%</p>
+            <p className="font-weight-bold pt-4 mb-2">Git/GitHub</p>
+            <div className="progress bg-black">
+              <div
+                className="progress-bar bg-success"
+                role="progressbar"
+                style={{ width: "95%" }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-label="progressbar"
+              />
+            </div>
+            <p className="mt-2">95%</p>
+            <p className="font-weight-bold pt-4 mb-2">Python/C++/C#/Java/SQL</p>
+            <div className="progress bg-black">
+              <div
+                className="progress-bar bg-success"
+                role="progressbar"
+                style={{ width: "90%" }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-label="progressbar"
+              />
+            </div>
+            <p className="mt-2">90%</p>
+            <p className="font-weight-bold pt-4 mb-2">And more!</p>
+            <div className="progress bg-black">
+              <div
+                className="progress-bar bg-success"
+                role="progressbar"
+                style={{ width: "100%" }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-label="progressbar"
+              />
+            </div>
+            <p className="mt-2">100%</p>
           </div>
           <hr className="my-5" />
         </section>
@@ -402,7 +402,9 @@ function App() {
                     Granbury and the waters contributing to Lake Granbury.
                   </p>
                   <strong>
-                    <p>I was the leading developer for this website.</p>
+                    <p>
+                      I was the leading front-end developer for this website.
+                    </p>
                   </strong>
                   <p className="text-decoration-underline">
                     <a href="http://www.granburyfresh.org/">Visit website...</a>
@@ -471,7 +473,7 @@ function App() {
           <div className="row mx-5">
             <div className="col-12">
               <p className="lead">
-                Hello, my name is Jesse Sites and I'm a web developer based in
+                Hello, my name is Jesse Sites and I'm a programmer based in
                 Texas.
               </p>
               <p>
@@ -487,8 +489,8 @@ function App() {
                 Computer Programming classes at TSTC.
               </p>
               <p className="mb-0">
-                I can create vanilla HTML/CSS/JS websites, React apps, and MERN
-                stack apps.
+                I can create HTML/CSS/JS websites, React apps, Vue apps, and
+                MERN stack apps.
               </p>
             </div>
             <hr className="my-5" />
