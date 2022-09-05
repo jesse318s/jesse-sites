@@ -17,8 +17,8 @@ function App() {
         <nav
           className={
             isLightModeActive
-              ? "navbar navbar-expand-lg navbar-light bg-light fixed-top"
-              : "navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+              ? "navbar navbar-expand-lg navbar-light bg-light fixed-top overflow-hidden"
+              : "navbar navbar-expand-lg navbar-dark bg-dark fixed-top overflow-hidden"
           }
         >
           {/* Container wrapper */}
