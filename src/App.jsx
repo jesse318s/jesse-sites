@@ -136,7 +136,7 @@ function App() {
             background: `url('${process.env.PUBLIC_URL}/img/landing_img.webp')`,
             backgroundSize: "cover",
             height: "100vh",
-            width: "99.1vw",
+            width: "100vw",
           }}
         >
           {/* popout animation */}
@@ -253,7 +253,7 @@ function App() {
             <p className="mt-2">98%</p>
           </div>
           <div className="col-6">
-            <p className="font-weight-bold pt-4 mb-2">React.js/Vue.js</p>
+            <p className="font-weight-bold pt-4 mb-2">React/Vue</p>
             <div className="progress bg-black">
               <div
                 className="progress-bar bg-success"
@@ -266,9 +266,7 @@ function App() {
               />
             </div>
             <p className="mt-2">95%</p>
-            <p className="font-weight-bold pt-4 mb-2">
-              Node.js/Express.js/MongoDB
-            </p>
+            <p className="font-weight-bold pt-4 mb-2">Express/Mongo</p>
             <div className="progress bg-black">
               <div
                 className="progress-bar bg-success"
@@ -294,7 +292,7 @@ function App() {
               />
             </div>
             <p className="mt-2">95%</p>
-            <p className="font-weight-bold pt-4 mb-2">Python/C++/C#/Java/SQL</p>
+            <p className="font-weight-bold pt-4 mb-2">Python/Java/C++</p>
             <div className="progress bg-black">
               <div
                 className="progress-bar bg-success"
@@ -307,19 +305,19 @@ function App() {
               />
             </div>
             <p className="mt-2">90%</p>
-            <p className="font-weight-bold pt-4 mb-2">And more!</p>
+            <p className="font-weight-bold pt-4 mb-2">C#/SQL</p>
             <div className="progress bg-black">
               <div
                 className="progress-bar bg-success"
                 role="progressbar"
-                style={{ width: "100%" }}
+                style={{ width: "90%" }}
                 aria-valuenow="25"
                 aria-valuemin="0"
                 aria-valuemax="100"
                 aria-label="progressbar"
               />
             </div>
-            <p className="mt-2">100%</p>
+            <p className="mt-2">90%</p>
           </div>
           <hr className="my-5" />
         </section>
