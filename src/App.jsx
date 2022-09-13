@@ -475,16 +475,14 @@ function App() {
                 Texas.
               </p>
               <p>
-                I'm currently a Computer Programming student at TSTC with one
-                year of experience as a freelance web developer, and with two
-                years of experience in the field of information technology at
-                Tarleton State University. I interned at TIAER (A TSU research
-                facility) for one year, and was a Student Tech for Classroom and
-                Lab Support at TSU for one year. I now create web development
-                solutions for my clients utilizing my knowledge and strategies
-                gained from Texas State Technical College, my new place of study
-                for Computer Programming. I also work as a peer tutor for
-                Computer Programming classes at TSTC.
+                I'm currently a Computer Programming student with two years of
+                experience in the field of information technology at Tarleton
+                State University, and with one year of experience as a freelance
+                web developer. I can now create programming solutions utilizing
+                my knowledge and strategies gained from Texas State Technical
+                College, my place of study for Computer Programming. I now work
+                as a peer tutor for Computer Programming classes at TSTC, and as
+                a mentor to fellow students of various majors.
               </p>
               <p className="mb-0">
                 I can create HTML/CSS/JS websites, React apps, Vue apps, and
