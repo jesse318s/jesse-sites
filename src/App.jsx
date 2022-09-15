@@ -477,11 +477,11 @@ function App() {
               <p>
                 I'm currently a Computer Programming student with two years of
                 experience in the field of information technology at Tarleton
-                State University, and with one year of experience as a freelance
+                State University and with one year of experience as a freelance
                 web developer. I can now create programming solutions utilizing
                 my knowledge and strategies gained from Texas State Technical
                 College, my place of study for Computer Programming. I now work
-                as a peer tutor for Computer Programming classes at TSTC, and as
+                as a peer tutor for Computer Programming classes at TSTC and as
                 a mentor to fellow students of various majors.
               </p>
               <p className="mb-0">
