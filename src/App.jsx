@@ -492,11 +492,9 @@ function App() {
             <hr className="my-5" />
           </div>
         </section>
-      </main>
 
-      <footer className="text-dark">
         <div id="contact" />
-        <div className="text-center mb-5">
+        <section className="text-center mb-5">
           <h2 className="my-5">Contact Me</h2>
           <p className="mb-5 mx-5">
             I can be contacted via LinkedIn, email, text, or call. Since a
@@ -506,7 +504,7 @@ function App() {
           </p>
           <ul className="list-unstyled mb-0">
             <li>
-              <i className="fab fa-linkedin-in fa-2x text-dark" />
+              <i className="fab fa-linkedin-in fa-2x" />
               <p className="text-decoration-underline">
                 <a href="https://www.linkedin.com/in/jesse-sites/">
                   https://www.linkedin.com/in/jesse-sites/
@@ -514,15 +512,18 @@ function App() {
               </p>
             </li>
             <li>
-              <i className="fas fa-envelope fa-2x text-dark" />
+              <i className="fas fa-envelope fa-2x" />
               <p>jesse318s@gmail.com</p>
             </li>
             <li>
-              <i className="fas fa-phone fa-2x text-dark" />
+              <i className="fas fa-phone fa-2x" />
               <p>+1 325-455-4644</p>
             </li>
           </ul>
-        </div>
+        </section>
+      </main>
+
+      <footer className="text-dark">
         <div
           className={
             isLightModeActive

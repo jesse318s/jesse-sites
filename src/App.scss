@@ -10,21 +10,11 @@ main {
   overflow-x: hidden;
 }
 
-body {
-  font-family: "Segoe UI";
-}
-
 .text_shadow {
   text-shadow: 3px 3px 3px black;
 }
 
 // styles
-.navbar_title {
-  font-family: "Roboto Draft";
-  color: lightblue;
-  padding: 5px;
-}
-
 .toggle_mode {
   cursor: pointer;
 }
