@@ -45,7 +45,7 @@ function App() {
                 className="navbar-brand"
                 href="https://jesse318s.github.io/jesse-sites-react-app/"
               >
-                <h1 className="navbar_title text_shadow">JS</h1>
+                <h1 className="text_shadow">JS</h1>
               </a>
               {/* Left links */}
               <ul className="navbar-nav me-auto font-weight-bold">
@@ -136,7 +136,7 @@ function App() {
             background: `url('${process.env.PUBLIC_URL}/img/landing_img.webp')`,
             backgroundSize: "cover",
             height: "100vh",
-            width: "100vw",
+            width: "99vw",
           }}
         >
           {/* popout animation */}
@@ -487,8 +487,8 @@ function App() {
         </section>
 
         <div id="contact" />
-        <section className="text-center mb-5">
-          <h2 className="my-5">Contact Me</h2>
+        <section className="text-center">
+          <h2 className="mb-5">Contact Me</h2>
           <p className="mb-5 mx-5">
             I can be contacted via LinkedIn, email, text, or call. Since a
             direct email may be caught in my spam filter, my LinkedIn profile is
@@ -510,13 +510,13 @@ function App() {
             </li>
             <li>
               <i className="fas fa-phone fa-2x" />
-              <p>+1 325-455-4644</p>
+              <p className="mb-0">+1 325-455-4644</p>
             </li>
           </ul>
         </section>
       </main>
 
-      <footer className="text-dark">
+      <footer>
         <div
           className={
             isLightModeActive
