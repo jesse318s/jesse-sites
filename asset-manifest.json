@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/jesse-sites-react-app/static/css/main.e76da8c7.css",
-    "main.js": "/jesse-sites-react-app/static/js/main.be4d5cc4.js",
+    "main.css": "/jesse-sites-react-app/static/css/main.78bfec84.css",
+    "main.js": "/jesse-sites-react-app/static/js/main.f651f92d.js",
     "index.html": "/jesse-sites-react-app/index.html",
-    "main.e76da8c7.css.map": "/jesse-sites-react-app/static/css/main.e76da8c7.css.map",
-    "main.be4d5cc4.js.map": "/jesse-sites-react-app/static/js/main.be4d5cc4.js.map"
+    "main.78bfec84.css.map": "/jesse-sites-react-app/static/css/main.78bfec84.css.map",
+    "main.f651f92d.js.map": "/jesse-sites-react-app/static/js/main.f651f92d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e76da8c7.css",
-    "static/js/main.be4d5cc4.js"
+    "static/css/main.78bfec84.css",
+    "static/js/main.f651f92d.js"
   ]
 }
