@@ -266,7 +266,7 @@ function App() {
               />
             </div>
             <p className="mt-2">95%</p>
-            <p className="font-weight-bold pt-4 mb-2">Express/Mongo</p>
+            <p className="font-weight-bold pt-4 mb-2">Node/Express</p>
             <div className="progress bg-black">
               <div
                 className="progress-bar bg-success"
@@ -292,7 +292,7 @@ function App() {
               />
             </div>
             <p className="mt-2">95%</p>
-            <p className="font-weight-bold pt-4 mb-2">Python/Java/C++</p>
+            <p className="font-weight-bold pt-4 mb-2">Python/Java/C#</p>
             <div className="progress bg-black">
               <div
                 className="progress-bar bg-success"
@@ -305,7 +305,7 @@ function App() {
               />
             </div>
             <p className="mt-2">90%</p>
-            <p className="font-weight-bold pt-4 mb-2">C#/SQL</p>
+            <p className="font-weight-bold pt-4 mb-2">MongoDB/SQL</p>
             <div className="progress bg-black">
               <div
                 className="progress-bar bg-success"
@@ -476,10 +476,8 @@ function App() {
               </p>
               <p>
                 I can create programming solutions utilizing my knowledge and
-                strategies gained from Texas State Technical College, my place
-                of study for Computer Programming. These solutions include
-                vanilla HTML/CSS/JS websites, React apps, Vue apps, and MERN
-                stack apps.
+                strategies gained from industry experience and Texas State
+                Technical College.
               </p>
             </div>
             <hr className="my-5" />
@@ -524,7 +522,7 @@ function App() {
               : "bg-dark bg-gradient text-center text-light p-3"
           }
         >
-          © 2021 Copyright: Jesse Sites
+          © 2023 Copyright: Jesse Sites
         </div>
       </footer>
     </>
