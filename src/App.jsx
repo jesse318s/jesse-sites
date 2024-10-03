@@ -86,7 +86,7 @@ function App() {
                     ? "btn btn-dark me-4 shadow-4-strong text-light"
                     : "btn btn-light me-4"
                 }
-                href="https://docs.google.com/document/d/1AuDoPstztHD-cxnOyms-Ih_d4n4-4UTJx5f1lgHndHM/edit?usp=sharing"
+                href=""
               >
                 <div className="font-weight-bold">My Resume</div>
               </a>
@@ -199,20 +199,7 @@ function App() {
               />
             </div>
             <p className="mt-2">100%</p>
-            <p className="font-weight-bold pt-4 mb-2">CSS</p>
-            <div className="progress bg-black">
-              <div
-                className="progress-bar bg-success"
-                role="progressbar"
-                style={{ width: "98%" }}
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                aria-label="progressbar"
-              />
-            </div>
-            <p className="mt-2">98%</p>
-            <p className="font-weight-bold pt-4 mb-2">SASS</p>
+            <p className="font-weight-bold pt-4 mb-2">CSS/SASS</p>
             <div className="progress bg-black">
               <div
                 className="progress-bar bg-success"
@@ -251,9 +238,7 @@ function App() {
               />
             </div>
             <p className="mt-2">98%</p>
-          </div>
-          <div className="col-6">
-            <p className="font-weight-bold pt-4 mb-2">React/Vue</p>
+            <p className="font-weight-bold pt-4 mb-2">React</p>
             <div className="progress bg-black">
               <div
                 className="progress-bar bg-success"
@@ -266,6 +251,8 @@ function App() {
               />
             </div>
             <p className="mt-2">95%</p>
+          </div>
+          <div className="col-6">
             <p className="font-weight-bold pt-4 mb-2">Node/Express</p>
             <div className="progress bg-black">
               <div
@@ -292,7 +279,7 @@ function App() {
               />
             </div>
             <p className="mt-2">95%</p>
-            <p className="font-weight-bold pt-4 mb-2">Python/Java/C#</p>
+            <p className="font-weight-bold pt-4 mb-2">MongoDB</p>
             <div className="progress bg-black">
               <div
                 className="progress-bar bg-success"
@@ -305,7 +292,20 @@ function App() {
               />
             </div>
             <p className="mt-2">90%</p>
-            <p className="font-weight-bold pt-4 mb-2">MongoDB/SQL</p>
+            <p className="font-weight-bold pt-4 mb-2">Python/Java/C#/C/C++</p>
+            <div className="progress bg-black">
+              <div
+                className="progress-bar bg-success"
+                role="progressbar"
+                style={{ width: "90%" }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-label="progressbar"
+              />
+            </div>
+            <p className="mt-2">90%</p>
+            <p className="font-weight-bold pt-4 mb-2">SQL</p>
             <div className="progress bg-black">
               <div
                 className="progress-bar bg-success"
@@ -522,7 +522,7 @@ function App() {
               : "bg-dark bg-gradient text-center text-light p-3"
           }
         >
-          © 2023 Copyright: Jesse Sites
+          © 2024 Copyright: Jesse Sites
         </div>
       </footer>
     </>
