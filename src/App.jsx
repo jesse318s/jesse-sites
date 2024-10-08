@@ -43,7 +43,7 @@ function App() {
               {/* Navbar brand */}
               <a
                 className="navbar-brand"
-                href="https://jesse318s.github.io/jesse-sites-react-app/"
+                href="https://jesse318s.github.io/pratice-project-react-app/"
               >
                 <h1 className="text_shadow">JS</h1>
               </a>
